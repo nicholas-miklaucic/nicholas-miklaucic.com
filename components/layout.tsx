@@ -22,7 +22,7 @@ import { ColorSchemeToggle } from './ColorSchemeToggle/ColorSchemeToggle';
 import router from 'next/router';
 import { IconBrandDiscord, IconMail } from '@tabler/icons';
 
-export default function Layout({ children }) {
+export default function Layout({ children }: { children: any }) {
     const theme = useMantineTheme();
     const [opened, setOpened] = useState(false);
     return (
@@ -101,7 +101,7 @@ export default function Layout({ children }) {
                                 <MediaQuery smallerThan="sm" styles={{ display: 'none' }}>
                                     <div></div>
                                 </MediaQuery>
-                                <Text size={32} truncate={true} color='rhoPurple' style={{ textOverflow: '', whiteSpace: 'nowrap' }} >Nicholas Miklaucic</Text>
+                                <Text size={32} color='rhoPurple' style={{ textOverflow: '', whiteSpace: 'nowrap' }} >Nicholas Miklaucic</Text>
                                 <ColorSchemeToggle />
                             </Group>
                         </div>

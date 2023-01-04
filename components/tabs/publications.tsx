@@ -18,8 +18,7 @@ export default function Publications() {
                     strong: (props) => (
                         <Text {...props} size='lg' fw='bold' color='rhoPurple' span />
                     )
-                }}>
-                </ReactMarkdown>
+                }} />
             </Text>
         </TypographyStylesProvider >
     )

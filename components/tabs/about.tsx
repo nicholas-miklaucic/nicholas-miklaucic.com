@@ -29,8 +29,7 @@ export default function About() {
                     a: (props) => (
                         <a {...props} target='_blank' />
                     )
-                }}>
-                </ReactMarkdown>
+                }} />
             </Text>
         </TypographyStylesProvider >
     )

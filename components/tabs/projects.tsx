@@ -48,12 +48,12 @@ export default function Projects() {
                 </Card>
                 <Card radius='lg' href='https://github.com/nicholas-miklaucic/aispell_app' component='a' target='_blank' sx={{ maxWidth: '400px' }} withBorder shadow='md'>
                     <Card.Section>
-                        <Image src='https://raw.githubusercontent.com/nicholas-miklaucic/aispell-app/main/demo.gif' sx={(theme) => {
+                        <Image src='https://raw.githubusercontent.com/nicholas-miklaucic/aispell-app/main/demo_dark.gif' sx={(theme) => {
                             return {
                                 display: theme.colorScheme === 'dark' ? 'block' : 'none'
                             }
                         }} />
-                        <Image src='https://raw.githubusercontent.com/nicholas-miklaucic/aispell-app/main/demo_dark.gif' sx={(theme) => {
+                        <Image src='https://raw.githubusercontent.com/nicholas-miklaucic/aispell-app/main/demo.gif' sx={(theme) => {
                             return {
                                 display: theme.colorScheme === 'light' ? 'block' : 'none'
                             }

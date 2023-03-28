@@ -46,6 +46,25 @@ export default function Projects() {
                         <a href="https://rho.vercel.app/computing-fibonacci-numbers/0"> my misadventures trying to efficiently compute Fibonacci numbers.</a>
                     </Text>
                 </Card>
+                <Card radius='lg' href='https://github.com/nicholas-miklaucic/aispell_app' component='a' target='_blank' sx={{ maxWidth: '400px' }} withBorder shadow='md'>
+                    <Card.Section>
+                        <Image src='https://raw.githubusercontent.com/nicholas-miklaucic/aispell-app/main/demo.gif' sx={(theme) => {
+                            return {
+                                display: theme.colorScheme === 'dark' ? 'block' : 'none'
+                            }
+                        }} />
+                        <Image src='https://raw.githubusercontent.com/nicholas-miklaucic/aispell-app/main/demo_dark.gif' sx={(theme) => {
+                            return {
+                                display: theme.colorScheme === 'light' ? 'block' : 'none'
+                            }
+                        }} />
+                    </Card.Section>
+                    <Text size='xl' fw={600} py={5} align='center'>AISpell</Text>
+                    <Text size='md'>
+                        AISpell uses both a language model and a model of how people type to intelligently correct spelling.
+                        It can correct errors in real time, on consumer hardware, by fusing the power of deep learning and classical statistics.
+                    </Text>
+                </Card>
                 <Card radius='lg' href='https://github.com/nicholas-miklaucic/rho_plus' component='a' target='_blank' sx={{ maxWidth: '400px' }} withBorder shadow='md'>
                     <Card.Section>
                         <Image src='/rhoplus_dark.png' sx={(theme) => {

@@ -21,7 +21,6 @@ import {
 import { ColorSchemeToggle } from './ColorSchemeToggle/ColorSchemeToggle';
 import router from 'next/router';
 import { IconBrandDiscord, IconMail } from '@tabler/icons';
-import { textDecoration } from '@chakra-ui/react';
 
 export default function Layout({ children }: { children: any }) {
     const theme = useMantineTheme();

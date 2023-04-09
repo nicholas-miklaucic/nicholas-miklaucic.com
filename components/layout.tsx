@@ -21,6 +21,7 @@ import {
 import { ColorSchemeToggle } from './ColorSchemeToggle/ColorSchemeToggle';
 import router from 'next/router';
 import { IconBrandDiscord, IconMail } from '@tabler/icons';
+import { textDecoration } from '@chakra-ui/react';
 
 export default function Layout({ children }: { children: any }) {
     const theme = useMantineTheme();
@@ -51,14 +52,14 @@ export default function Layout({ children }: { children: any }) {
                                 },
                                 tab: {
                                     padding: theme.spacing.md,
-                                    fontSize: theme.fontSizes.md
-                                }
+                                    fontSize: theme.fontSizes.md,
+                                },
                             }}
                         >
                             <Tabs.List>
                                 <Tabs.Tab value="about">About</Tabs.Tab>
                                 <Tabs.Tab value="projects">Projects</Tabs.Tab>
-                                <Tabs.Tab value="resume">Résumé</Tabs.Tab>
+                                <Tabs.Tab value="resume"><a href="/resume.pdf" target="_blank" style={{ textDecoration: "none" }}>Résumé</a></Tabs.Tab>
                                 <Tabs.Tab value="publications">Publications</Tabs.Tab>
                             </Tabs.List>
                         </Tabs>

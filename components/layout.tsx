@@ -78,7 +78,7 @@ export default function Layout({ children }: { children: any }) {
                                         <IconMail size={24} stroke={1.5} />
                                     </Flex>
                                     <Flex align='center' justify='space-between'>
-                                        <p>PollardsRho#7513</p>
+                                        <p>pollardsrho</p>
                                         <IconBrandDiscord size={24} stroke={1.5} />
                                     </Flex>
                                 </Stack>

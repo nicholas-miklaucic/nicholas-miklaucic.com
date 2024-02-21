@@ -2,16 +2,15 @@ import { Title, Text, TypographyStylesProvider } from "@mantine/core";
 import ReactMarkdown from 'react-markdown'
 
 const markdown = `
-I'm Nicholas, an undergraduate studying AI and NLP. Presently, I am a Data Science and Behavioral
-Neuroscience major at Northeastern University, graduating in May 2023.
+I'm Nicholas, a CS PhD student at the University of South Carolina. I have the great fortune to be advised by [Dr. Jianjun Hu](https://www.cse.sc.edu/~jianjunh/) and work in his [Machine Learning and Evolution Laboratory.](http://mleg.cse.sc.edu/)
 
-I enjoy teaching machines to learn, teaching people to learn, and researching how to better do both of those things. Some specific highlights:
+Many paradigm shifts in technology have started from materials, from the Iron Age, to steel, to plastics, to semiconductors. The next generation of materials is out there, yet to be discovered, and AI has an important role to play in that discovery. Hopefully, I do too!
 
-- Multimodal learning: how can we combine language models with other forms of knowledge?
-- Bayesian inference: how can we build deep probabilistic models of the world?
-- Safety and ethics: how can we make sure AI benefits humanity, not just a lucky few?
+My work applies the latest advances in AI—diffusion models, transformers, state-space models, and more—towards problems in materials science. Crystals are a challenging domain with many idiosyncrasies, so making the models that work well for images and text work well for my problems involves a lot of creative math.
 
-If you want to learn more, check out my [projects](/projects) or [résumé](/resume.pdf).
+I do some programming and write up interesting technical ideas in my spare time. You can check out my [projects](/projects) to learn more about that, or get my [résumé](/resume.pdf).
+
+If you're interested in collaboration, whether on my research or something else, feel free to reach out! My email or Discord is the best way of reaching me.
 `
 
 export default function About() {

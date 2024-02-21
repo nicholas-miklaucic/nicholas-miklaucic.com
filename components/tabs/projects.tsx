@@ -4,6 +4,17 @@ export default function Projects() {
         <>
             <Title order={1} align='center'>Projects</Title>
             <Flex wrap='wrap' rowGap='md' columnGap='md' justify='space-around' align='center'>
+                <Card radius='lg' href='https://github.com/nicholas-miklaucic/curium' component='a' target='_blank' sx={{ maxWidth: '400px' }} withBorder shadow='md'>
+                    <Text size='xl' fw={600} py={5} align='center'>Curium</Text>
+                    <Text size='md'>
+                        Alongside my other research, I'm working on a library, Curium, that implements the computational tools of crystallography in Rust—written from the ground up, not just a wrapper for <code>cctbx</code> or
+                        <code>spglib</code>. <br /> <br />
+
+                        Curium aims to be the fastest implementation of various primitives needed for machine learning available, with significant improvements over other libraries for existing functionality. Beyond that, the goal is to create a library that uses the type system and a thoughtfully-designed API to make doing the right thing easy. <br /> <br />
+
+                        Curium is the foundation for what I hope will be state-of-the-art machine learning models that push the limits of what AI can do for crystallography.
+                    </Text>
+                </Card>
                 <Card radius='lg' href='https://github.com/constellate-org/constellate' component='a' target='_blank' sx={{ maxWidth: '400px' }} withBorder shadow='md'>
                     <Card.Section>
                         <Image src='https://constellate.dev/constellate-dark.png' sx={(theme) => {

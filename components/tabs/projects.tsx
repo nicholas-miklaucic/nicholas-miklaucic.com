@@ -57,7 +57,7 @@ export default function Projects() {
                         <a href="https://rho.vercel.app/computing-fibonacci-numbers/0"> my misadventures trying to efficiently compute Fibonacci numbers.</a>
                     </Text>
                 </Card>
-                <Card radius='lg' href='https://github.com/nicholas-miklaucic/aispell_app' component='a' target='_blank' sx={{ maxWidth: '400px' }} withBorder shadow='md'>
+                <Card radius='lg' href='https://github.com/nicholas-miklaucic/aispell-app' component='a' target='_blank' sx={{ maxWidth: '400px' }} withBorder shadow='md'>
                     <Card.Section>
                         <Image src='https://raw.githubusercontent.com/nicholas-miklaucic/aispell-app/main/demo_dark.gif' sx={(theme) => {
                             return {
